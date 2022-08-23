@@ -1,0 +1,178 @@
+*{
+  padding:0%;
+  margin: 0%;  
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.topheader div h1{
+    margin-left: 0.5rem;
+}
+ .topheader2{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.topheader2 li{
+    margin:0 .2rem
+}
+
+.topheader2 li a{
+    font-size: .5rem;
+}
+
+.topheader2 .list{
+    text-decoration: none;
+    border-style: solid;
+    padding: 0.5rem;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    background-color: orange;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    margin: 3rem auto;
+}
+.leftside .item{
+    display:flex;
+    margin: 1.3rem 0;
+    align-items:center;
+}
+
+.leftside .item .fa-solid{
+    color: orange;
+    margin-right:1rem
+}
+
+.car-item{
+    display: flex;  
+}
+
+
+.car-item img{
+    object-fit: contain;
+    width: 4rem;
+    height: 2rem; 
+    margin-bottom: .5rem;
+    border: 1px solid grey;
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.car-item img:hover{
+    border:1px solid orange;
+}
+.model-item{
+    display: flex;  
+}
+
+.model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.model-item p{
+    object-fit: contain;
+    width: 4rem;
+    height: 2rem; 
+    margin-bottom: .5rem;
+    border: 1px solid grey;
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.model-item p:hover{
+    border:1px solid orange;
+}
+
+.model-item{
+    display: flex;  
+}
+
+.year{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.year-item{
+    display:flex;
+}
+
+.year-item p{
+    object-fit: contain;
+    width: 4rem;
+    height: 2rem; 
+    margin-bottom: .5rem;
+    border: 1px solid grey;
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.year-item p:hover{
+    border:1px solid orange;
+}
+
+form{
+margin:auto!important;
+width:50%;
+}
+
+form div{
+    margin:auto;
+  
+}
+
+form input{
+    width:100%;
+    
+}
+
+form button{
+    background-color: rgb(29, 29, 113);
+    color:#fff;
+    padding: .4rem;
+    border-radius:.2rem;
+    margin:1rem 0;
+    width: 100%;
+}
+
+#detailsPage{
+   width: 75%;
+   border: 1px solid grey;
+   margin: auto;
+   border-radius: .5rem;
+height: 100vh;
+}
+
+.details div{
+display: flex;
+margin: 1rem 0;
+justify-content: space-between;
+
+}
+
+.info div{
+    display: flex;
+margin: 1rem 0;
+justify-content: space-between;
+
+}
